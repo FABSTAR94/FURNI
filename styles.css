@@ -22,7 +22,7 @@ body {
 }
 
 .list-items {
-    padding-left: 175px;
+    padding-left: 300px;
 }
 
 .list-items ul {
@@ -41,7 +41,7 @@ body {
 }
 
 .login-cart-icons {
-    padding-right: 150px;
+    padding-right: 190px;
 }
 
 .svg-size {
@@ -52,7 +52,7 @@ body {
 /*BANNER*/
 .banner {
     background-color: #3b5d50;
-    height: 600px;
+    height: 615px;
 }
 
 .banner-content {
@@ -63,6 +63,7 @@ body {
 
 .left-content {
     padding-left: 150px;
+    width: 33.333%
 }
 
 .left-content h1 {
@@ -94,8 +95,26 @@ body {
     margin-left: 20px;
 }
 
-.right-content img {
+.right-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-dots img {
+    height: 169px;
+    position: absolute;
+    right: 0;
+    top: 102px;
+}
+
+.green-couch img {
     height: 500px;
-    margin-left: 40px;
     margin-top: 40px;
+    position: relative;
+    z-index: 2;
+}
+
+.two-img {
+    position: relative;
 }
