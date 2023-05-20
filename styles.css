@@ -118,3 +118,96 @@ body {
 .two-img {
     position: relative;
 }
+
+/*CRAFTED SECTION*/
+
+.crafted-section {
+    height: 450px;
+}
+
+.crafted-content {
+    display: flex;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+.crafted-left {
+    padding-left: 150px;
+    width: 18%;
+}
+
+.crafted-left h1 {
+    margin-top: 0px;
+    font-size: ;
+}
+
+.crafted-left p {
+    color: #6A6A6A;
+}
+
+.crafted-left button {
+    background-color: #2F2F2F;
+    border: none;
+    width: 115px;
+    height: 40px;
+    border-radius: 25px;
+    color: #FFFFFF;
+    margin-top: 25px;
+}
+
+.crafted-right {
+    display: flex;
+    width: 76%;
+    justify-content: space-evenly;
+}
+
+.card {
+    width: 250px;
+    /* height: 200px; */
+    /* background-color: #dce5e4; */
+    text-align: center;
+    border-radius: 20px;
+}
+
+.card:hover {
+    background-color: #dce5e4;
+}
+
+.plus img {
+    height: 30px;
+    opacity: 0;
+}
+
+.card:hover .plus img {
+    opacity: 1;
+}
+
+.nordic-chair img,
+.kruzo-aero-chair img,
+.ergonomic-chair img {
+    height: 230px;
+    transition: 0.2s ease-in-out;
+}
+
+.chair-text h4 {
+    text-align: center;
+    margin: 0px;
+    transition: 0.3s ease-in-out;
+}
+
+.chair-text {
+    margin-top: 25px;
+}
+
+.card:hover .nordic-chair img,
+.card:hover .kruzo-aero-chair img,
+.card:hover .ergonomic-chair img {
+    transform: translateY(-50px);
+    filter: drop-shadow(5px 5px 5px #222);
+}
+
+.card:hover .chair-text h4 {
+    opacity: 1;
+    transform: translateY(-50px);
+}
