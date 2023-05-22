@@ -214,11 +214,11 @@ body {
 
 /*WHY SECTION*/
 
-.why-section{
-height: 700px;
+.why-section {
+    height: 700px;
 }
 
-.why-content{
+.why-content {
     display: flex;
     max-width: 1440px;
     margin: 0 auto;
@@ -230,21 +230,31 @@ height: 700px;
     width: 50%;
 }
 
+.four-benefits {
+    margin-top: 55px;
+}
+
 .why-right {
     width: 50%;
 }
 
-.column svg {
-    height: 40px;
+.column {
+    margin-top: 10px;
 }
 
-.column span, .why-left span {
+.column svg {
+    height: 35px;
+}
+
+.column span,
+.why-left span {
     color: #6A6A6A;
 }
 
 .four-benefits .row {
     display: flex;
 }
+
 .four-benefits .column {
     flex: 50%;
 }
