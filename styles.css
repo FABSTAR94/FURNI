@@ -211,3 +211,52 @@ body {
     opacity: 1;
     transform: translateY(-50px);
 }
+
+/*WHY SECTION*/
+
+.why-section{
+height: 700px;
+}
+
+.why-content{
+    display: flex;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+.why-left {
+    padding-left: 150px;
+    width: 50%;
+}
+
+.why-right {
+    width: 50%;
+}
+
+.column svg {
+    height: 40px;
+}
+
+.column span, .why-left span {
+    color: #6A6A6A;
+}
+
+.four-benefits .row {
+    display: flex;
+}
+.four-benefits .column {
+    flex: 50%;
+}
+
+.yellow-dots img {
+    height: 169px;
+    position: absolute;
+}
+
+.cool-interior img {
+    height: 500px;
+    position: relative;
+    left: 75px;
+    top: 50px;
+}
