@@ -281,3 +281,88 @@ body {
     left: 75px;
     top: 50px;
 }
+
+/*HELP SECTION*/
+
+.help-content {
+    display: flex;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+.help-left {
+    width: 50%;
+    padding-left: 60px;
+}
+
+.help-right {
+    width: 50%;
+    padding-left: 15px;
+}
+
+.help-right p {
+    color: #6A6A6A;
+}
+
+.help-right h1 {
+    margin-top: 80px;
+}
+
+.blue-dots img {
+    height: 169px;
+    position: absolute;
+}
+
+.warm-interior img {
+    height: 450px;
+    position: relative;
+    left: 108px;
+    top: 52px;
+    border-radius: 5px;
+}
+
+.bar-stool img {
+    height: 308px;
+    position: relative;
+    left: 410px;
+    bottom: 210px;
+    border-radius: 5px;
+}
+
+.study-room img {
+    height: 180px;
+    position: relative;
+    left: 485px;
+    top: -715px;
+    border-radius: 5px;
+}
+
+.four-bullet-pts {
+    display: flex;
+}
+
+ul {
+    padding-left: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+    background-size: 10px;
+    background-image: url("https://i.ibb.co/hHhh1Bm/Ellipse-67-1.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding: 0px 25px;
+    padding-top: 2px;
+}
+
+.help-right button {
+    background-color: #2F2F2F;
+    border: none;
+    width: 115px;
+    height: 40px;
+    border-radius: 25px;
+    color: #FFFFFF;
+    margin-top: 25px;
+}
