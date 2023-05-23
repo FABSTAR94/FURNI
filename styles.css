@@ -420,3 +420,51 @@ li {
 .sm-ergo-chair-card {
     display: flex;
 }
+
+/*BLOG SECTION*/
+
+.blog-section {
+    height: 550px;
+}
+
+.blog-content {
+    max-width: 1440px;
+    margin: 0 auto;
+    /* padding-left: 150px; */
+}
+
+.top-text {
+    display: flex;
+    align-items: center;
+}
+
+.left-text {
+    padding-left: 150px;
+}
+
+.right-text {
+    padding-left: 845px
+}
+
+.right-text p {
+    border-bottom: 3px solid #000000;
+}
+
+.blog-row {
+    display: flex;
+    padding-left: 150px;
+}
+
+.blog-column {
+    width: 30%;
+}
+
+.blog-column img {
+    height: 250px;
+    border-radius: 10px;
+}
+
+.blog-column span {
+    font-style: italic;
+    font-weight: 200;
+}
