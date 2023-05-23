@@ -123,6 +123,7 @@ body {
 
 .crafted-section {
     height: 450px;
+    background-color: #EFF2F1;
 }
 
 .crafted-content {
@@ -144,6 +145,7 @@ body {
 
 .crafted-left p {
     color: #6A6A6A;
+    font-weight: 200;
 }
 
 .crafted-left button {
@@ -216,6 +218,7 @@ body {
 
 .why-section {
     height: 700px;
+    background-color: #EFF2F1;
 }
 
 .why-content {
@@ -250,6 +253,7 @@ body {
 .column span,
 .why-left span {
     color: #6A6A6A;
+    font-weight: 200;
 }
 
 .four-benefits .row {
@@ -286,6 +290,7 @@ body {
 
 .help-section {
     height: 700px;
+    background-color: #EFF2F1;
 }
 
 .help-content {
@@ -307,6 +312,7 @@ body {
 
 .help-right p {
     color: #6A6A6A;
+    font-weight: 200;
 }
 
 .help-right h1 {
@@ -374,6 +380,7 @@ li {
 /*SM CHAIR SECTION*/
 
 .sm-chair-section {
+    background-color: #EFF2F1;
     height: 300px;
 }
 
@@ -403,6 +410,11 @@ li {
 
 .sm-chair-text span {
     color: #6A6A6A;
+    font-weight: 200;
+}
+
+.sm-chair-text p {
+    color: #6A6A6A;
 }
 
 .sm-chair-text h3 {
@@ -424,6 +436,7 @@ li {
 /*BLOG SECTION*/
 
 .blog-section {
+    background-color: #EFF2F1;
     height: 550px;
 }
 
