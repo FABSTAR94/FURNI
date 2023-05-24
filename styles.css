@@ -179,6 +179,7 @@ body {
 .plus img {
     height: 30px;
     opacity: 0;
+    transform: translateY(19px);
 }
 
 .card:hover .plus img {
