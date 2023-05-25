@@ -358,7 +358,7 @@ ul {
     margin: 0;
 }
 
-li {
+.four-bullet-pts li {
     list-style: none;
     background-size: 10px;
     background-image: url("https://i.ibb.co/hHhh1Bm/Ellipse-67-1.png");
@@ -550,4 +550,86 @@ input[type=text] {
 .green-square img {
     height: 25px;
     transform: translateY(5px);
+}
+
+/*FOOTER SECTION*/
+.footer-content {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.footer-flex {
+    display: flex;
+}
+
+.footer-left {
+    padding-left: 150px;
+    width: 30%;
+}
+
+.footer-left p {
+    font-weight: 200;
+}
+
+.footer-right {
+    width: 60%;
+}
+
+.grey-circle {
+    width: 50px;
+    height: 50px;
+    background-color: #D9D9D9;
+    border-radius: 35px;
+    margin-right: 10px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.grey-circle img {
+    height: 20px;
+    transform: translateY(14px);
+}
+
+.footer-icons {
+    display: flex;
+}
+
+.footer-links {
+    display: flex;
+    padding-top: 75px;
+}
+
+.footer-links li {
+    line-height: 28px;
+    list-style-type: none;
+    padding: 0px 25px;
+    font-weight: 200;
+}
+
+.line {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    border: 1px solid #EFF2F1;
+    width: 1140px;
+    margin-left: 150px;
+}
+
+.text-footr-flex {
+    display: flex;
+    padding-left: 150px;
+    margin-bottom: 40px;
+}
+
+.text-footr-left {
+    font-weight: 200;
+}
+
+.text-footr-right {
+    display: flex;
+    padding-left: 430px;
+    font-weight: 200;
+}
+
+.privacy-text p {
+    margin-left: 30px;
 }
